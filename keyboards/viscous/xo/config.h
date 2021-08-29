@@ -45,7 +45,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 // define rotary encoder pins, 2 added by desoldering resistors golem pro micro upgrade 
 // for xo board
 #define ENCODERS_PAD_A { B0 }
-#define ENCODERS_PAD_B { B5 }
+#define ENCODERS_PAD_B { D5 }
 #define ENCODER_RESOLUTION 4
 
 

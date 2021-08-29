@@ -52,6 +52,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define ENCODERS_PAD_A_RIGHT { D1 }
 #define ENCODERS_PAD_B_RIGHT { F5 }
 #define ENCODER_RESOLUTION 4
+#define ENCODER_DIRECTION_FLIP
 
 /* COL2ROW or ROW2COL */
 // flip to match wiring on xo board
