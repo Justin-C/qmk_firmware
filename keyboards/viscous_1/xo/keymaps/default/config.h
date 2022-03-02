@@ -36,7 +36,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 // wiring of each half
 #define MATRIX_ROW_PINS { D2, D3, D1, D0, D4 }
-#define MATRIX_COL_PINS { F4, F5, F6, F7, B1, B3, B2, B6, B5, B4, E6, D7, C6 }
+#define MATRIX_COL_PINS { F4, F5, F6, F7, B1, B3, B0, D5, B5, B4, E6, D7, C6 }
 
 /* COL2ROW or ROW2COL */
 // flip to match wiring on xo board
@@ -44,8 +44,8 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 // define rotary encoder pins, 2 added by desoldering resistors golem pro micro upgrade 
 // for xo board
-#define ENCODERS_PAD_A { B0 }
-#define ENCODERS_PAD_B { D5 }
+#define ENCODERS_PAD_A { B2 }
+#define ENCODERS_PAD_B { B6 }
 #define ENCODER_RESOLUTION 4
 
 
@@ -62,8 +62,6 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define LOCKING_SUPPORT_ENABLE
 /* Locking resynchronize hack */
 #define LOCKING_RESYNC_ENABLE
-
-#define TAPPING_TERM 200
 
 /*
  * Feature disable options

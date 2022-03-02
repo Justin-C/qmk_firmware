@@ -27,7 +27,6 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define DEVICE_VER      0x0001
 #define MANUFACTURER    Profet
 #define PRODUCT         Atreus62
-#define DESCRIPTION     q.m.k. keyboard firmware for Atreus62
 
 /* key matrix size */
 // Rows are doubled-up
@@ -39,15 +38,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define MATRIX_COL_PINS { F4, F5, F6, F7, B1, B3, B2, B6, B5, B4, E6, D7, C6 }
 
 /* COL2ROW or ROW2COL */
-// flip to match wiring on xo board
-#define DIODE_DIRECTION COL2ROW
-
-// define rotary encoder pins, 2 added by desoldering resistors golem pro micro upgrade 
-// for xo board
-#define ENCODERS_PAD_A { B0 }
-#define ENCODERS_PAD_B { D5 }
-#define ENCODER_RESOLUTION 4
-
+#define DIODE_DIRECTION ROW2COL
 
 /* define if matrix has ghost */
 //#define MATRIX_HAS_GHOST
@@ -62,8 +53,6 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define LOCKING_SUPPORT_ENABLE
 /* Locking resynchronize hack */
 #define LOCKING_RESYNC_ENABLE
-
-#define TAPPING_TERM 200
 
 /*
  * Feature disable options
